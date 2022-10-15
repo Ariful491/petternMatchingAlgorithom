@@ -54,4 +54,7 @@ Follow the steps mentioned here to implement the idea:
 
 •	The average and best-case running time of the Rabin-Karp algorithm is O(n+m), but its worst-case time is O(nm).
 •	The worst case of the Rabin-Karp algorithm occurs when all characters of pattern and text are the same as the hash values of all the substrings of txt[] match with the hash value of pat[]. 
+====
+Please wait to see algorithom
 
+![uIPjisbiCM-bruteforce](https://user-images.githubusercontent.com/52754507/196001643-4652e9d3-4f32-425b-ac48-a26473de5af7.gif)
