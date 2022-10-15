@@ -3,6 +3,13 @@ Rabin-Karp Algorithm for Pattern Searching
 
  Codes   : https://github.com/Ariful491/petternMatchingAlgorithom/blob/master/pettern_matching_algor.php
  
+ output our program is:
+ =
+ total  3 times .
+ 
+ ![resul](https://user-images.githubusercontent.com/52754507/196001849-05cf3e62-7f1f-4332-9588-91ca1fa6f1ed.png)
+
+ 
 Discussion:
 ==
 
