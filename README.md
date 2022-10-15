@@ -1,12 +1,15 @@
 ##Rabin-Karp Algorithm for Pattern Searching
+=
 
  Codes   : https://github.com/Ariful491/petternMatchingAlgorithom/blob/master/pettern_matching_algor.php
  
-#Discussion: 
+#Discussion:
+==
 
 Given a text txt[0. . .n-1] and a pattern pat[0. . .m-1], write a function search(char pat[], char txt[]) that prints all occurrences of pat[] in txt[]. You may assume that n > m.
 
 Examples: 
+==
 Input:  txt[] = “THIS IS A TEST TEXT”, pat[] = “TEST”
 Output: Pattern found at index 10
 Input:  txt[] =  “AABAACAADAABAABA”, pat[] =  “AABA”
@@ -17,7 +20,9 @@ Output: Pattern found at index 0
 
  ![image](https://user-images.githubusercontent.com/52754507/196001428-ff8a5ae5-e66b-4415-950e-9c72f06389d6.png)
 
-##Approach: To solve the problem follow the below idea:
+##Approach:
+==
+To solve the problem follow the below idea:
 
 The Naive String Matching algorithm slides the pattern one by one. After each slide, one by one checks characters at the current shift, and if all characters match then print the match
 Like the Naive Algorithm, the Rabin-Karp algorithm also slides the pattern one by one. But unlike the Naive algorithm, the Rabin Karp algorithm matches the hash value of the pattern with the hash value of the current substring of text, and if the hash values match then only it starts matching individual characters. So Rabin Karp algorithm needs to calculate hash values for the following strings.
@@ -50,7 +55,7 @@ Follow the steps mentioned here to implement the idea:
 
 
 ##Time_Complexity: 
-
+==
 
 •	The average and best-case running time of the Rabin-Karp algorithm is O(n+m), but its worst-case time is O(nm).
 •	The worst case of the Rabin-Karp algorithm occurs when all characters of pattern and text are the same as the hash values of all the substrings of txt[] match with the hash value of pat[]. 
