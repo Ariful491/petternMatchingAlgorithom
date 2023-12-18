@@ -1,6 +1,5 @@
 Rabin-Karp Algorithm for Pattern Searching
 =
-
  Codes   : https://github.com/Ariful491/petternMatchingAlgorithom/blob/master/pettern_matching_algor.php
  
  output our program is:
