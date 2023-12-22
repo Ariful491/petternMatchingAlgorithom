@@ -8,6 +8,7 @@ Rabin-Karp Algorithm for Pattern Searching
  
  ![resul](https://user-images.githubusercontent.com/52754507/196001849-05cf3e62-7f1f-4332-9588-91ca1fa6f1ed.png)
 
+
  
 Discussion:
 ==
